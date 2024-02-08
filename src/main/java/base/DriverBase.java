@@ -39,7 +39,7 @@ public class DriverBase {
         extent = new ExtentReports();
         extent.attachReporter(sparkReporter);
         sparkReporter.config().setTheme(Theme.DARK);
-        extent.setSystemInfo("HostName", "RHELS");
+        extent.setSystemInfo("HostName", "RHEL8");
         extent.setSystemInfo("UserName", "root");
         sparkReporter.config().setDocumentTitle("Ui Automation Report");
         sparkReporter.config().setReportName("Ui Automation By SMM");
